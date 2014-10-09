@@ -87,7 +87,6 @@ class Preceptor(models.Model):
     def observar(self, alumno, descripcion):
         self.observacion_set.create(descripcion=descripcion)
         return descripcion
-<<<<<<< HEAD
 
 
 class Observacion (models.Model):
